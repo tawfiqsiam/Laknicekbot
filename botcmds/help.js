@@ -9,8 +9,8 @@ module.exports.run = async (bot, message, args) => {
   let helpembed = new Discord.RichEmbed()
   .setTitle("~Command Handler By Laknicek!~")
   .setColor("RANDOM")
-  .setDescription(`Prefix is \`\`c!\`\`\nUsage : **c!help-<module>**\nTo get help with a specified module!\n\n**Available Modules** :🙌🏼 currency, fun , staff , helpful , bot\n\nExample 🙌🏼: **c!help-fun**`)
-  .setFooter(`Requested by ${message.author.tag}`)
+  .setDescription(`Prefix is 👉🏼 \`\`c!\`\`\nUsage 👉🏼 : **c!help-<module>**\n👉🏼To get help with a specified module!\n\n**Available Modules** :🙌🏼 currency, fun , staff , helpful ,🙌 bot\n\nExample 👉🏼: **c!help-fun**`)
+  .setFooter(`Requested by 👉🏼 ${message.author.tag}`)
   
   message.channel.send(helpembed)
   
