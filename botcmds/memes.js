@@ -13,13 +13,13 @@ module.exports.run = async (bot, message, args) => {
         "animememes",
         "AnimeFunny",
         "dankmemes",
-        "dankmeme",
-        "wholesomememes",
-        "MemeEconomy",
-        "techsupportanimals",
-        "meirl",
-        "me_irl",
-        "2meirl4meirl",
+        
+        
+        
+        
+        
+        
+        
         "AdviceAnimals"
     ]
 
