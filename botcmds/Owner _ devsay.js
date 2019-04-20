@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
    const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  if(message.author.id !== "350956268015452161") return message.reply("You're not my developer... the developer is Laknicek!")
+  if(message.author.id !== "551044385735835648") return message.reply("You're not my developer... the developer is Laknicek!")
   let botmessage = args.join(" ");
   message.delete().catch();
   message.channel.send(`Developer ${message.author} said : ${botmessage}`)
