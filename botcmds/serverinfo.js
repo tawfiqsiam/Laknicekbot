@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("**Role Count:**", `${message.guild.roles.size}`, true)
     .addField("Created on", message.guild.createdAt, true)
     .addField("You joined", message.member.joinedAt, true)    
-    .setFooter(`CipBot | Server Info`, bot.user.displayAvatarURL);
+    .setFooter(`Laknicek Bot | Server Info`, bot.user.displayAvatarURL);
     message.channel.send({embed: sEmbed});
 }
 
