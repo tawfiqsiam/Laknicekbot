@@ -10,7 +10,7 @@ const os = require("os");
 const config = require("./config.json")
 
 
-bot.user.setGame('*Nightcore Music*')
+
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 
