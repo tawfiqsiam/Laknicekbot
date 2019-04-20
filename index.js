@@ -10,7 +10,7 @@ const os = require("os");
 const config = require("./config.json")
 
 
-
+bot.user.setPresence({ status: 'online', game: { name: '*Nightcore Music*' } });
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 
