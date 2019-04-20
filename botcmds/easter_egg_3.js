@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
   
   candys[message.author.id].candys = candys[message.author.id].candys * 999999999999
   
-  message.author.send("You unlocked an achivement! | **Mega Secret Cheat Code** | x999999999999 candies recived!")
+  message.author.send("You unlocked an achivement! | **Mega Secret Cheat Code By Laknicek** | x999999999999 candies recived!")
 }
 
 module.exports.help = {
