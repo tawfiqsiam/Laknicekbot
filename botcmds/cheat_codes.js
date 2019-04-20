@@ -11,8 +11,8 @@ module.exports.run = async (bot, message, args) => {
   let cheatEmbed = new Discord.RichEmbed()
   .setTitle("Cheat Codes :)")
   .setColor("RANDOM")
-  .addField("c!**C1P2ODEVCOOL** = x1000 Candies", "Working!")
-  .addField("c!**A1B2C3AABBCCXX** = x10000 Candies", "Working!")
+  .addField("c!**LAKNICEKFREE** = x1000 Candies", "Working!")
+  .addField("c!**LAKNICEKNIGHTCORE** = x10000 Candies", "Working!")
   .addField("c!**DISCORD_HACK_CHEAT_CODE_GET_132231** = x1337", "Working!")
   .addField("c!**AABBCC-112233-DDEEFF-445566-CHEAT_CODE** = x999999999999", "Working!")
   
