@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     if(!bUser) return message.channel.send(":warning: | Usage: c!ban @User <reason>");
     let bReason = args.join(" ").slice(22) 
     if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("No can do pal!");
-    if(bUser.hasPermission("MANAGE_ROLES")) return message.channel.send("That person can't be banned!");
+    if(bUser.hasPermission("MANAGE_ROLES")) return message.channel.send("That person can't be banned! its Higher Role From me!");
   
     let banEmbed = new Discord.RichEmbed()
     .setDescription("~Ban~")
