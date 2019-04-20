@@ -151,4 +151,4 @@ bot.on("error", console.error);
 
 
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.token);
