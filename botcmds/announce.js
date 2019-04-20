@@ -11,8 +11,8 @@ module.exports.run = async (bot, message, args) => {
       if (text.length < 0) return message.channel.send("Can't announce nothing!");
       message.delete().catch();
       let ANEmbed = new Discord.RichEmbed()
-      .setColor("RANDOM")
-      .setTitle("Server Announcement!")
+      .setColor("PINK")
+      .setTitle("💢Server Announcement!💢")
       .setDescription(`**${text}**`)
       .addField("Announced By :", message.author.username);
       message.channel.send(ANEmbed)
