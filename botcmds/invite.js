@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
   let target = message.mentions.users.first() || message.author;
   let inviteEmbed = new Discord.RichEmbed()
   .setTitle("Invitation!")
-  .setDescription("\n[Click me](https://discordapp.com/oauth2/authorize?client_id=476743559912095755&permissions=2146958839&scope=bot) to invite the bot!\n\nOr:\n\nInvite the bot from my [Official Site](https://cipbot.weebly.com/cipbot.html)!\n\nRequested by:")
+  .setDescription("\n[Click me](https://discordapp.com/api/oauth2/authorize?client_id=551044385735835648&permissions=0&scope=bot) to invite the bot!\n\nOr:\n\nInvite the bot from my [Official Site](https://cipbot.weebly.com/cipbot.html)!\n\nRequested by:")
   .setColor("RANDOM")
   .setFooter(target.username, target.avatarURL)
  
