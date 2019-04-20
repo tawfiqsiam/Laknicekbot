@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
      }
   console.log(role)
   
-  message.channel.send(":white_check_mark: | Succesfully added role!")
+  message.channel.send(":white_check_mark: | Laknicek Has Succesfully added role!")
 }
 
 module.exports.help = {
