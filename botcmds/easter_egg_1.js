@@ -8,10 +8,10 @@ module.exports.run = async (bot, message, args) => {
   
   candys[message.author.id].candys = candys[message.author.id].candys * 10000
   
-  message.author.send("You unlocked an achivement! | **The Code** | x10000 candies recived!")
+  message.author.send("You unlocked an achivement! | **!The Code By Laknicek!** | x10000 candies recived!")
 }
 
 module.exports.help = {
-    name: "A1B2C3AABBCCXX", 
+    name: "LAKNICEKNIGHTCORE", 
     aliases: [] 
 }
