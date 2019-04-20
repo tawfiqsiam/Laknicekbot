@@ -37,7 +37,7 @@ if (tbot === true) {
         .addField("Is bot", tbot)
         .addField("Status", `${status[target.presence.status]}`, true)
 	
-        .addField("Playing", `${target.presence.game ? `${target.presence.game.name}` : "not playing anything."}`, true)
+        .addField("Playing", `${target.presence.game ? `${target.presence.game.name}` : "not playing anything... Ugh Boring Guy!"}`, true)
 
         
         .addField("Account Created At", target.createdAt)
