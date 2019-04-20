@@ -1,0 +1,16 @@
+{
+"ownerID": "410495079439007755",
+"red": "#CC6600",
+"green": "#008000",
+"yellow": "#FFFF00",
+"black": "#000000",
+"purple": "#FF00FF",
+"aqua": "#00FFFF",
+"lime": "#00FF00",
+"random": "RANDOM",
+"embed": "new Discord.RichEvent()",
+"target": "message.mentions.users.first() || message.author",
+"msgsend": "message.channel.send",
+"prefix": "c!",
+"ownerName": "Cip 2.0"
+}
