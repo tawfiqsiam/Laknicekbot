@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
 
   if(!message.content.startsWith(prefix))return;
 
-  if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send("Sorry but you need to be a server Administrator to use this command");
+  if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send("Sorry But Laknicek Don't Alow You To use This Command! :(");
 let target = message.mentions.channels.first()
 let botmsg = args.slice(1).join(" ")
 
