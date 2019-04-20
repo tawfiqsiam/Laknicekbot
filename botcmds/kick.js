@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
   if(!kUser) return message.channel.send(":warning: | Usage: c!kick @User <reason>");
   let kReason = args.join(" ").slice(22) 
   if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("No can do pal!");
-  if(kUser.hasPermission("MANAGE_MESSAGES")) return message.channel.send("That person can't be kicked!");
+  if(kUser.hasPermission("MANAGE_MESSAGES")) return message.channel.send("That person can't be kicked! Its Higher Role!");
 
   let kickEmbed = new Discord.RichEmbed()
   .setDescription("~Kick~")
