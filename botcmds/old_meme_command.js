@@ -17,10 +17,10 @@ module.exports.run = async (bot, message, args) => {
 
         let mEmbed = new Discord.RichEmbed()
         .setColor("RANDOM")
-        .setAuthor(`MEMEZ!`, message.guild.iconURL)
+        .setAuthor(`MEMEZ From 2002 UwU!`, message.guild.iconURL)
         .setImage(body.url)
         .setTimestamp()
-        .setFooter(`CipBot`, bot.user.displayAvatarURL)
+        .setFooter(`Laknicek Bot`, bot.user.displayAvatarURL)
 
         message.channel.send({embed: mEmbed})
 }
