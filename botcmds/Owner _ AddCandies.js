@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
    const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  if(message.author.id !== `${config.ownerID}`) return message.reply("You're not Has Permission Administrator! || YOU JUST GET FUCKED BY A BOT ||")
+  if(message.author.id !== `${config.ownerID}`) return message.reply("You're not Administrator! || YOU JUST GET FUCKED BY A BOT ||")
   
   let channel = message.channel
   let target = message.mentions.users.first() || message.author;
@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
   let dcEmbed = embed
   .setTitle("Candies Added!")
   .setColor("RANDOM")
-  .addField(`🍬 | Added x${args[0]} candies to user ${target.tag}!`, "Complete!")
+  .addField(`🍬 | Added x${args[0]} candies to user ${target.tag}!`, "Complete UwU!")
   .setFooter("Dev Command!")
 
   channel.send(dcEmbed)
