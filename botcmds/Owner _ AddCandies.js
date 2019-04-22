@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
    const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  if(message.author.id !== `${config.ownerID}`) return message.reply("You're not Administrator! || YOU JUST GET FUCKED BY A BOT ||")
+  if(message.author.id !== "277829088461193216") return message.reply("You're not Administrator! || YOU JUST GET FUCKED BY A BOT ||")
   
   let channel = message.channel
   let target = message.mentions.users.first() || message.author;
