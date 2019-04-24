@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
    const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  if(message.member.hasPermission("MANAGE_MESSAGES") || message.author.id == "277829088461193216") {
+  if(message.author.id !== "277829088461193216") return message.reply("this command is for only the premium bot!") {
   
     if(!args[0]) return message.channel.send("Please enter a number")
   await message.delete();  
