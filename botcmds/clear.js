@@ -10,10 +10,7 @@ module.exports.run = async (bot, message, args) => {
     if(!args[0]) return message.channel.send("Please enter a number")
   await message.delete();  
   message.channel.bulkDelete(args[0]).then(() => {
-        embed=discord.Embed(description="✅ The Message's Has Been Deleted! ✅"color=0xeec8ed)
-embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/550360899165224971/573479523157278723/ytchannelicon.png.jpg")
-embed.set_footer(text="By Me ***UwU***")
-await self.bot.say(embed=embed) ${args[0]}.`).then(msg => msg.delete(5000));
+          message.channel.send(`✅ Cleared ${args[0]} messages ***UwU*** ✅.`).then(msg => msg.delete(5000));
     });
     return
    } else {
