@@ -10,7 +10,12 @@ module.exports.run = async (bot, message, args) => {
     if(!args[0]) return message.channel.send("Please enter a number")
   await message.delete();  
   message.channel.bulkDelete(args[0]).then(() => {
-          message.channel.send(`✅ Cleared ${args[0]} messages ***UwU*** ✅.`).then(msg => msg.delete(5000));
+   let inviteEmbed = new Discord.RichEmbed()
+  .setDescription("✅ The Message's Has Been Deleted! ✅")
+  .setColor("RANDOM")
+  .setFooter(By Me ***UwU***)
+ 
+  message.author.send(inviteEmbed).then(msg => msg.delete(5000));
     });
     return
    } else {
