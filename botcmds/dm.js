@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
 try{   
     await target.send(`${dmsend}`)
   }catch(e){
-    channel.send("***Their Dms are locked!*** F*ck!!! ")
+    channel.send("***Their Dms are locked!*** F*ck! ")
   }
   }
 
