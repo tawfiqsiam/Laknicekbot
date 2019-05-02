@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
   let channel = message.channel
   let target = message.mentions.users.first() || message.author;
   
-  if(message.author.id !== `${config.ownerID}`) return message.reply("You're not my developer!")
+  if(message.author.id !== `277829088461193216`) return message.reply("You're not my developer!")
     let dmsend = args.join(" ");
     message.channel.send(`:white_check_mark: | Sent to ${target.tag}`)
 try{   
