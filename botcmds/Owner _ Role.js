@@ -19,9 +19,9 @@ module.exports.run = async (bot, message, args) => {
   let role = args.slice(1).join(" ");
   if(!role) return message.channel.send("Specify a role!");
   let gRole = message.guild.roles.find(r => r.name === role);
-  if(!gRole) return message.channel.send(":x: | Couldn't find that role.");
+  if(!gRole) return message.channel.send(":x: | Couldn't find that role .-. .");
   
-  if(rMember.roles.has(gRole.id)) return message.channel.send("They already have that role.");
+  if(rMember.roles.has(gRole.id)) return message.channel.send("They already have that role xD.");
   await(rMember.addRole(gRole.id));
   
   try{
@@ -31,10 +31,10 @@ module.exports.run = async (bot, message, args) => {
      }
   console.log(role)
   
-  message.channel.send(":white_check_mark: | Laknicek Has Succesfully added role!")
+  message.channel.send(":white_check_mark: | Yayy Succesfully added The Role role ***UwU**! | :white_check_mark:")
 }
 
 module.exports.help = {
     name: "devrole", 
-    aliases: ['drole']
+    aliases: ['addrole']
 }
