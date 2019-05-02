@@ -9,13 +9,13 @@ module.exports.run = async (bot, message, args) => {
   let channel = message.channel
   let target = message.mentions.users.first() || message.author;
   
-  if(message.author.id !== "277829088461193216") return message.reply("You're not my developer!")
+  if(message.author.id !== "277829088461193216") return message.reply("You're not my developer! .-.")
     let dmsend = args.join(" ");
-    message.channel.send(`:white_check_mark: | Sent to ${target.tag}`)
+    message.channel.send(`:white_check_mark: | Sent to ${target.tag} ***UwU*** ! | :white_check_mark:`)
 try{   
     await target.send(`${dmsend}`)
   }catch(e){
-    channel.send("Their Dms are locked!")
+    channel.send("***Their Dms are locked!*** F*ck!!! ")
   }
   }
 
