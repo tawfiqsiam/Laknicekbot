@@ -7,20 +7,10 @@ module.exports.run = async (bot, message, args) => {
   if(!message.content.startsWith(prefix))return;
     
     let reddit = [
-        "meme",
         "animemes",
         "MemesOfAnime",
         "animememes",
-        "AnimeFunny",
-        "dankmemes",
-        
-        
-        
-        
-        
-        
-        
-        "AdviceAnimals"
+        "AnimeFunny"
     ]
 
     let subreddit = reddit[Math.floor(Math.random() * reddit.length)];
