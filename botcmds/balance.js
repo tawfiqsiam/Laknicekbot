@@ -19,8 +19,8 @@ module.exports.run = async (bot, message, args) => {
   let donutEmbed = new Discord.RichEmbed()
   .setTitle("Candy Bank Account!")
   .setColor("RANDOM")
-  .setDescription(`Hey **${target.tag}**\n\nYou have ${uDonuts} Candies! 🍬`)
-  .setFooter("Want more candies? Then come to this van :)")
+  .setDescription(`🍬 Hey **${target.tag}**\n\nYou have ${uDonuts} Candies ***UwU**! 🍬`)
+  .setFooter("🍬🚐 Want more candies? Then come to this van 🚐🍬 :)")
   
   message.channel.send(donutEmbed)
 
