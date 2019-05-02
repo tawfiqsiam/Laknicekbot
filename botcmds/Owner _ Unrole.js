@@ -20,7 +20,7 @@ module.exports.run = async (bot, message, args) => {
   let gRole = message.guild.roles.find(r => r.name === role);
   if(!gRole) return message.channel.send(":x: | Couldn't find that role.");
   
-  if(!rMember.roles.has(gRole.id)) return message.channel.send("They don't have that role.");
+  if(!rMember.roles.has(gRole.id)) return message.channel.send("They don't have that role .-. .");
   await(rMember.removeRole(gRole.id));
   
   try{
@@ -30,11 +30,11 @@ module.exports.run = async (bot, message, args) => {
   }
   console.log(role)
   
-  message.channel.send(":white_check_mark: | Succesfully removed role!")
+  message.channel.send(":white_check_mark: | Yayyy Succesfully removed role ***UwU***! | :white_check_mark: ")
   
 }
 
 module.exports.help = {
     name: "devunrole", 
-    aliases: ['dunrole']
+    aliases: ['unrole']
 }
