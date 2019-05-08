@@ -153,7 +153,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: '❤️ Nightcore Music ❤️',
-            type: "STREAMING",
+            type: "LISTENING",
             url: "https://www.youtube.com/channel/UC9SZcw1k2Iqlk40zn_gL5Kg"
         }
     });
