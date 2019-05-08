@@ -9,8 +9,6 @@ const { readdir } = require("fs");
 const os = require("os");
 const config = require("./config.json")
 
-bot.user.setPresence({ game: { name: 'with depression', type: "streaming", url: " ❤️ Nightcore Music ❤️"}});
-
 
 
 bot.commands = new Discord.Collection();
@@ -150,7 +148,16 @@ bot.on("error", console.error);
    } */
 });
 
-
+bot.on('ready', () => {
+    bot.user.setStatus('available')
+    bot.user.setPresence({
+        game: {
+            name: 'with depression',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
+});
 
 
 bot.login(process.env.token);
