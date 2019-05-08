@@ -152,7 +152,7 @@ bot.on('ready', () => {
     bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: '❤️ Nightcore Music ❤️',
+            name: '❤️Nightcore Music❤️',
             type: "LISTENING",
             url: "https://www.youtube.com/channel/UC9SZcw1k2Iqlk40zn_gL5Kg"
         }
