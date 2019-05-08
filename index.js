@@ -152,12 +152,11 @@ bot.on('ready', () => {
     bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: 'with depression',
+            name: '❤️ Nightcore Music ❤️',
             type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
+            url: "https://www.youtube.com/channel/UC9SZcw1k2Iqlk40zn_gL5Kg"
         }
     });
 });
-
 
 bot.login(process.env.token);
