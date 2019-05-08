@@ -9,6 +9,9 @@ const { readdir } = require("fs");
 const os = require("os");
 const config = require("./config.json")
 
+client.user.setPresence({ game: { name: 'Laknicek Nightcore' }, status: 'online' });
+bot.user.setGame('Listening', '[ Nightcore ] - Hometown smile (By Laknicek)');
+
 
 
 bot.commands = new Discord.Collection();
