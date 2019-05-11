@@ -1,12 +1,12 @@
 {
-  "name": "cipbot",
+  "name": "Laknicek",
   "version": "1.0.0",
-  "description": "Cip 2.0's Bot",
+  "description": "Laknicek's Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Cip",
+  "author": "Laknicek",
   "license": "ISC",
   "dependencies": {
     "discord-rpc": "^3.0.1",
