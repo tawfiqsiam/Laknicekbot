@@ -1,5 +1,5 @@
 {
-"ownerID": "410495079439007755",
+"ownerID": "277829088461193216",
 "red": "#CC6600",
 "green": "#008000",
 "yellow": "#FFFF00",
@@ -12,5 +12,5 @@
 "target": "message.mentions.users.first() || message.author",
 "msgsend": "message.channel.send",
 "prefix": "c!",
-"ownerName": "Cip 2.0"
+"ownerName": "Laknicek"
 }
