@@ -28,5 +28,5 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.help = {
     name: "balance", 
-    aliases: ['bal', 'bank', 'wallet']
+    aliases: ['bal', 'bank', 'wallet', 'candys']
 }
