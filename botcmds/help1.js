@@ -27,7 +27,7 @@ module.exports.run = async (bot, message, args) => {
   .addField("For Staff Commands do :", "**c!help-moderation**")
   .addField("For Helpful Commands do :", "**c!help-helpful**")
   .addField("For Other Bot Commands", "**c!help-bot**")
-  .addField("For Currency Commands do :", "**c!help-currency**")
+  .addField("For Economy Commands do :", "**c!help-currency**")
   .setFooter(`Requested by ${target.tag}`)
   
   channel.send(help1Embed)
