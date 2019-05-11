@@ -6,10 +6,10 @@ module.exports.run = async (bot, message, args) => {
    const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  console.log("Dis is the base command!");
+  console.log("LAKNICEK JOIN THE DISCORD SERVER NOW THEY CALLING YOU!!");
 }
 
 module.exports.help = {
-    name: "base",
+    name: "Warn",
     aliases: []
 }
