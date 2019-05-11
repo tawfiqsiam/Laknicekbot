@@ -29,7 +29,7 @@ module.exports.run = async(bot, message, args) => {
    .addField("Feels Like", `${current.feelslike} degrees`, true)
    .addField("Winds", `${current.winddisplay}`, true)
    .addField("Humidity", `${current.humidity}%`, true)
-   .setFooter("With the help of {Quantum}#0001")
+   .setFooter("With the help of ⎝⧹๖̶̶̶ζ[Laknicek]⧸⎠#0279")
    .setTimestamp();
 
 
