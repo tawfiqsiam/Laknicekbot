@@ -11,6 +11,6 @@
 "embed": "new Discord.RichEvent()",
 "target": "message.mentions.users.first() || message.author",
 "msgsend": "message.channel.send",
-"prefix": "c!",
+"prefix": "z!",
 "ownerName": "Laknicek"
 }
