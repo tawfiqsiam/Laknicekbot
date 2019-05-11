@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
   const prefix = "c!";
   if(!message.content.startsWith(prefix))return;
   
-  if(message.author.id !== "350956268015452161") return message.channel.send(":negative_squared_cross_mark: | You are not my developer!");
+  if(message.author.id !== "277829088461193216") return message.channel.send(":negative_squared_cross_mark: | You are not my developer!");
   
   if (message.guild.members.get(bot.user.id).hasPermission("CHANGE_NICKNAME") && message.guild.members.get(bot.user.id).hasPermission("CHANGE_NICKNAME")) {
         message.guild.members.get(bot.user.id).setNickname(`${args.join(" ")}`);
