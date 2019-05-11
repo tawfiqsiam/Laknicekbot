@@ -36,7 +36,7 @@ load("./botcmds/");
 
 bot.on("ready", async () => {
   console.log(`[BOT] Commands Loaded! \n[BOT] Online on ${bot.guilds.size} servers!`);
-  bot.user.setStatus(`dnd`)
+  bot.user.setStatus(`online`)
 });
 
 bot.on("message", async message => {
