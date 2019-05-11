@@ -152,7 +152,7 @@ bot.on('ready', () => {
     bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: '❤️Nightcore🎧Music❤️',
+            name: '❤️Nightcore Music❤️',
             type: "LISTENING",
 
         }
