@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
   .setTitle(result)
   .setDescription(`${args.join(" ")}`)
   .setColor("RANDOM")
-  .setFooter("Your reminders are secured by CipBot")
+  .setFooter("Your reminders are secured by Laknicek-Bot")
   
   message.channel.send("Reminder Created!")
   message.author.send(normalE)
